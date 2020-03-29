@@ -1,0 +1,33 @@
+package sam.java.book;
+
+public class Dog {
+	String name;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog dog1 = new Dog ();
+		dog1.bark();
+		dog1.name = "Bart";
+		Dog[] myDogs = new Dog[3];
+		myDogs[0] = new Dog ();
+		myDogs[1] = new Dog ();
+		myDogs[2] = dog1;
+		
+		
+		myDogs[0].name = "Fred";
+		myDogs[1].name = "Djor";
+		
+		System.out.print("The name three god - ");
+		System.out.println(myDogs[2].name);
+		
+		for (int x = 0; x < myDogs.length; x++) {
+			myDogs[x].bark();
+		
+		}
+	}
+		public void bark() {
+			System.out.println (name + " said Gav");
+		}
+	}
+
+

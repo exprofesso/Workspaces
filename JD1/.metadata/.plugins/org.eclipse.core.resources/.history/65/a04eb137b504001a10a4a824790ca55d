@@ -1,0 +1,10 @@
+package sam.java.book;
+
+public class EchoTestDrive {
+public static void mail (String [] args) {
+	
+}
+	
+	
+	
+}

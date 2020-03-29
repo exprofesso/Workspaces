@@ -1,0 +1,46 @@
+package by.htp.les02.main;
+
+import java.util.Scanner;
+
+public class Function1 {
+	
+	public static void main (String[] args) {
+		
+		//z=((a–3)*b/2)+c.
+		
+	double a;
+	double b;
+	double c;
+	
+	double z;
+	Scanner sc = new Scanner (System.in);
+	
+	 System.out.println("Введите целое число А ");
+	 if(sc.hasNext() == true) {
+		 a=sc.nextDouble();
+		 System.out.println("Все верно ");
+	 }
+	 else {
+		 System.out.println("Число должно быть целым");
+	 }
+		 
+	 
+	
+	 
+	 System.out.println("Введите переменную В");
+	 
+	 b=sc.nextDouble();
+	 
+	 System.out.println("Введите переменную С");
+	 c=sc.nextDouble();
+	 
+	 
+	
+	z=((a-3)*b/2)+c;
+	
+	System.out.println("Z = "+z);
+		
+		
+	}
+
+}

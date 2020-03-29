@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;jd1-02-control-operator&apos;&#x0A;- Original project: &apos;jd1-02-control-operator&apos;&#x0A;- Original element: &apos;by.htp.les02.main.Task5.java&apos;" description="Delete element" element1="/src&lt;by.htp.les02.main{Task5.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1572193812794" subPackages="false" version="1.0"/>
+</session>

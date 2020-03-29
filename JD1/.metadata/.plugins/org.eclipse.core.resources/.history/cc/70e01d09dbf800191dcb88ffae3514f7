@@ -1,0 +1,27 @@
+package by.htp.les02.main;
+
+import java.util.Scanner;
+
+public class Task5 {
+
+	public static void main(String[] args) {
+		
+		long t;
+		
+		Scanner time = new Scanner (System.in);
+		
+		System.out.print("tcyyurd");
+		
+		System.out.println(timeToString(639087654323490));
+		
+	}
+
+	private static String timeToString(long secs) {
+        long hour = secs / 3600,
+                min = secs / 60 % 60,
+                sec = secs / 1 % 60;
+        return String.format("%02d:%02d:%02d", hour, min, sec);
+    }
+	
+	
+}

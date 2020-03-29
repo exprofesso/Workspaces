@@ -1,0 +1,27 @@
+package sam.java.book;
+
+public class MovieTestDrive {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Movie one = new Movie();
+		Movie two = new Movie ();
+		Movie three = new Movie ();
+
+		one.title = "Как прогореть на акциях";
+		one.genre = "Трагедия";
+		one.rating = 3;
+		two.title = "Потеряные в офисе";
+		two.genre = "Комедия";
+		two.rating = 5;
+		three.title = "Бокс-Клуб";
+		three.genre = "Драма";
+		three.rating = -4;
+
+System.out.print(one.title);
+
+
+
+}
+
+}

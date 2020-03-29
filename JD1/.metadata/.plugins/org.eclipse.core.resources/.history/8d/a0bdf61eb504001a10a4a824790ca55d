@@ -1,0 +1,15 @@
+package sam.java.book;
+
+public class DrumKitTestDrive {
+
+	public static void main(String[] args) {
+	System.out.print("fdsd");
+	DrumKit d = new DrumKit();
+		
+		d.playSnare();
+		
+		d.playTopHat();
+		
+		
+	}
+}

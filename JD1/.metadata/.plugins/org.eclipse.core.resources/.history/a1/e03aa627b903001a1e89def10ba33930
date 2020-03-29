@@ -1,0 +1,22 @@
+package sam.java.book;
+
+public class PhraseOMatic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String [] wordsListOne = {"круглосуточный", "взаимный", "обоюдный выигреш", "умный", "проникающий", "шесть", "динамический", "метод критического пути"};
+String [] wordsListTwo = {"уполномоченый","трудный","чистый продукт","ориентированный","центральный","распределеный","фирменный"};
+String [] wordsListThree = {"тип структуры","талант"," подход"," портал","переод времени","обзор","образец","пукт следования"};
+	System.out.println(wordsListOne.length);
+	int rand1 = (int) (Math.random() * wordsListOne.length);
+	int rand2 = (int) (Math.random()* wordsListTwo.length);
+	int rand3 = (int) (Math.random()* wordsListThree.length);
+	
+	String answer = wordsListOne[rand1] + wordsListTwo[rand2] + wordsListThree[rand3];
+	
+	System.out.print(answer);
+	
+	
+	
+	}
+}
